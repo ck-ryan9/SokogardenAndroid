@@ -35,9 +35,10 @@
                 android:text="  ➕ Sign Up"
                 android:textSize="25sp"
                 android:padding="10dp"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="4dp"
                 android:layout_marginTop="8dp"
                 android:textColor="#ED0404"
+                android:layout_weight="1"
                 android:backgroundTint="#75C5AF"
                 android:id="@+id/signupBtn"/>
 
@@ -47,11 +48,25 @@
                 android:text=" 👤 Sign In"
                 android:textSize="25sp"
                 android:padding="10dp"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="4dp"
                 android:layout_marginTop="8dp"
                 android:textColor="#242"
+                android:layout_weight="1"
                 android:backgroundTint="#29D0B5"
                 android:id="@+id/signinBtn"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 📜About"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="8dp"
+                android:textColor="#242"
+                android:layout_weight="1"
+                android:backgroundTint="#29D0B5"
+                android:id="@+id/aboutBtn"/>
 
             <TextView
                 android:id="@+id/welcomeText"
